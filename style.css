@@ -27,9 +27,12 @@
 .gap-3{
     gap: 3rem;
 }
+.gap-2{
+    gap: 2rem;
+}
 .wraper{
     max-width: 1400px;
-    background-color:gold ;
+   
     margin: auto;
     padding-inline: 1.5rem;
 
@@ -52,6 +55,23 @@ li{
 
 .navbar{
     min-height:14vh ;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color:var(--gold-finger) ;
+}
+.button{
+     display: inline-block;
+     padding:1rem 2rem;
+     background-color: var(--gold-finger);
+     border-radius: 1.5rem;
+     color: var(--pure-white);
+     box-shadow: rgb(0, 0, 0,0.1) 0 2px  1px;
+     transition: .3s ease-in-out;
+}
+.button:hover{
+    background: var(--lead);
 }
 
 
