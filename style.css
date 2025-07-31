@@ -73,6 +73,29 @@ li{
 .button:hover{
     background: var(--lead);
 }
+.cart-icon{
+    color: var(--lead);
+    font-size: 1.3rem;
+}
+ .cart-icon .cart-values{
+    position: relative;
+    top:50%;
+    right: 15px;
+    font-size: .85rem;
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background-color: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+    line-height: 20px;
+    
+ }
+ .ds-action .hamburger{
+    font-size: 1.5rem;
+    display: none;
+
+ }
 
 
 
