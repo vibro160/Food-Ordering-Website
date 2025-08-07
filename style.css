@@ -73,6 +73,18 @@ li{
 .button:hover{
     background: var(--lead);
 }
+.button1{
+     display: inline-block;
+     padding:1rem 2rem;
+     background-color: var(--gold-finger);
+     border-radius: 1.5rem;
+     color: var(--pure-white);
+     box-shadow: rgb(0, 0, 0,0.1) 0 2px  1px;
+     transition: .3s ease-in-out;
+}
+.button1:hover{
+    background: var(--lead);
+}
 .cart-icon{
     color: var(--lead);
     font-size: 1.3rem;
@@ -95,6 +107,9 @@ li{
     font-size: 1.5rem;
     display: none;
 
+ }
+ .mobile-menu{
+    display: none;
  }
 
 
@@ -156,8 +171,35 @@ li{
 
  @media screen and (max-width:780px) {
 
-   .navlist {
+   .navlist,
+   .button
+   {
         display:none;
     }
+
+    .ds-action .hamburger{
+        display: block;
+    }
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20rem;
+    padding: 2rem;
+    background: #FFFDF7;
+    border: .1rem solid var(--gold-finger);
+    border-radius: 15px;
+    box-shadow: rgba(29, 28, 28, 0.05)  8px 8px 5px,
+     rgba(113, 112, 112,0.05)  8px 8px 8px inset
+
+    ;
+}
+    
     
  }
