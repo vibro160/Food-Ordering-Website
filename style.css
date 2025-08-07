@@ -116,6 +116,14 @@ li{
 
 
 
+ .hero-section{
+    /* background-color: rgb(198, 198, 47); */
+    min-height: 100vh;
+ }
+
+
+
+
 
 
 
@@ -188,7 +196,7 @@ li{
     gap:2rem;
     position: absolute;
     top:20%;
-    left: 50%;
+    left: -100%;
     transform: translateX(-50%);
     width: 20rem;
     padding: 2rem;
@@ -196,9 +204,16 @@ li{
     border: .1rem solid var(--gold-finger);
     border-radius: 15px;
     box-shadow: rgba(29, 28, 28, 0.05)  8px 8px 5px,
-     rgba(113, 112, 112,0.05)  8px 8px 8px inset
+     rgba(113, 112, 112,0.05)  8px 8px 8px inset;
+     transition:  all .5s ease-in-out;
 
-    ;
+
+
+}
+
+.mobile-menu-active{
+    left:50%;
+    transform: translateX(-50%);
 }
     
     
