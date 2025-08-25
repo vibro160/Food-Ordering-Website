@@ -58,6 +58,9 @@ img {
 .text-center{
     text-align: center;
 }
+.mt-4{
+    margin-top: 4rem;
+}
 
 body {
     background-color: var(--eye-ball);
@@ -154,7 +157,8 @@ li {
 }
 
 .content,
-.image-container {
+.image-container, .service-cards
+ {
     flex: 1;
     flex-basis: 300px;
 }
@@ -219,6 +223,53 @@ h2{
     color: var(--lead);
 }
 
+h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--lead);
+}
+
+.service-cards h3{
+   
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+   
+}
+
+
+
+/* SECTOIN 2 */
+
+
+.order-card{
+    flex: 1;
+  
+    background: var(--pure-white);
+    padding: 0 1rem 2rem 2rem;
+     border: .1rem solid var(--gold-finger);
+        border-radius: 2rem;
+        box-shadow: rgba(29, 28, 28, 0.05) 8px 8px 5px,
+            rgba(113, 112, 112, 0.05) 8px 8px 8px inset;
+}
+.order-card img{
+  
+    width: 15rem;
+    filter: drop-shadow(
+        rgba(99, 98, 98,0.2) 0px 10px 10px 
+    );
+}
+h4{
+    font-size: 1.8rem;
+    color:var(--lead);
+}
+.order-card .price{
+    font-size: 1.7rem;
+    color: var(--gold-finger);
+    padding-top: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+ 
 
 
 
@@ -327,5 +378,16 @@ h2{
     .gap-2 {
         gap: 1.4rem;
     }
+    hap-4{
+        gap: 4rem;
+    }
+   
+
+
+    /* sectoion 1 */
+h2{
+    font-size: 3rem;
+}
+
 
 }
